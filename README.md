@@ -19,3 +19,6 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kazuha787&show_icons=true&locale=en" alt="kazuha787" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kazuha787&" alt="kazuha787" /></p>
+
+
+![snake gif](https://github.com/Kazuha787/Kazuha787/blob/output/github-snake-dark.svg)
