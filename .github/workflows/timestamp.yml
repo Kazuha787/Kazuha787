@@ -24,30 +24,29 @@ jobs:
         uses: actions/checkout@v3 
         with:
           persist-credentials: true 
-          fetch-depth: 0  # Ensures full repo history is fetched
-
-      - name: Update Timestamp File
-        run: |
-          current_time=$(date '+%Y-%m-%d %H:%M:%S')
-          echo "Updated on $current_time" > stamp.txt
+          fetch-depth: 0  # Fetch full history to avoid issues
 
       - name: Setup Git Configuration
         run: |
           git config --global user.email "fool-body-cheddar@duck.com"
           git config --global user.name "recitativonika"
 
-      - name: Pull latest changes before committing
+      - name: Pull latest changes to avoid conflicts
         run: |
-          git pull --rebase origin master || echo "No remote changes to pull."
+          git pull origin master --rebase || git reset --hard origin/master
 
-      - name: Prepare Commit
+      - name: Force Update Timestamp File
+        run: |
+          current_time=$(date '+%Y-%m-%d %H:%M:%S')
+          echo "Updated on $current_time" > stamp.txt
+          git add stamp.txt
+
+      - name: Commit Changes
         run: |
           commit_messages=("Update: ⏰" "Refresh: 🔄" "Renew: 🌟" "Revise: 📝" "Amend: 🛠" "Adjust: 🔧" "Change: 📈" "Modify: 🖊" "Transform: 🌀" "Revamp: 🌈")
           random_msg=${commit_messages[$RANDOM % ${#commit_messages[@]}]}
-
-          git add stamp.txt
           git commit -m "$random_msg - $current_time" || echo "No changes to commit."
 
-      - name: GitHub Push
+      - name: Force Push to Avoid Conflicts
         run: |
-          git push origin master || (git pull --rebase origin master && git push origin master)
+          git push origin master --force
