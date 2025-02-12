@@ -2,8 +2,8 @@ name: Timestamp Update
 
 on:
   schedule:
-    - cron: '*/25 * * * *'  # हर 25 मिनट पर रन होगा
-  workflow_dispatch:  # इसे मैन्युअली भी रन कर सकते हैं
+    - cron: '*/25 * * * *'  # Runs every 25 minutes
+  workflow_dispatch:  # Allows manual triggering
 
 permissions:
   contents: write
@@ -26,8 +26,8 @@ jobs:
 
       - name: Pull Latest Changes
         run: |
-          git fetch origin master
-          git reset --hard origin/master
+          git fetch origin main
+          git reset --hard origin/main
 
       - name: Update Timestamp
         run: |
@@ -42,4 +42,4 @@ jobs:
 
       - name: Push Changes
         run: |
-          git push origin master --force
+          git push origin main --force
