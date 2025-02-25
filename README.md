@@ -10,7 +10,7 @@
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Kazuha787&theme=merko&hide_border=false&include_all_commits=true&count_private=true)<br/>
 
-<img src="https://readme-visitor-counter.herokuapp.com/Kazuha787?label=Total Visitors&color=ff69b4&style=for-the-badge&animation=true" />
+<img src="https://visitcount.itsvg.in/api?id=Kazuha787&label=Profile%20Views&color=6&icon=0&pretty=true" />
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Kazuha787&theme=merko&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Kazuha787&theme=merko&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
