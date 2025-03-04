@@ -19,14 +19,7 @@
 
 ![](https://github-readme-stats.vercel.app/api?username=Kazuha787&theme=merko&hide_border=false&include_all_commits=true&count_private=true)<br/>
 
-<h1 align="center">🔥 GitHub Streak & Stats 🔥</h1>
-
-<p align="center">
-  <a href="https://github.com/Kazuha787">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=Kazuha787&theme=highcontrast&hide_border=true&border_radius=10&background=0D1117&stroke=FFD700&ring=FFA500&fire=FF4500&currStreakNum=FFD700" alt="GitHub Streak" width="80%"/>
-  </a>
-</p>
-
+![](https://nirzak-streak-stats.vercel.app/?user=Kazuha787&theme=tokyonight&hide_border=false)
 ---
 
 <h2 align="center">📊 Most Used Languages</h2>
