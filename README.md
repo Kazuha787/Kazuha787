@@ -19,8 +19,14 @@
 
 ![](https://github-readme-stats.vercel.app/api?username=Kazuha787&theme=merko&hide_border=false&include_all_commits=true&count_private=true)<br/>
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=Kazuha787&theme=merko&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Kazuha787&theme=merko&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<h2 align="center">🔥 Streaks & Top Languages</h2>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kazuha787&theme=radical&hide_border=true&background=000000&stroke=FF5733&ring=FFD700&fire=FF4500&currStreakNum=FFD700" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kazuha787&theme=radical&hide_border=true&layout=compact&background=000000&title_color=FF5733&text_color=FFD700&icon_color=FF4500" alt="Top Languages" />
+</p>
 
 ![snake gif](https://github.com/Kazuha787/Kazuha787/blob/output/github-snake-dark.svg)
 
