@@ -19,11 +19,11 @@
 
 ![](https://github-readme-stats.vercel.app/api?username=Kazuha787&theme=merko&hide_border=false&include_all_commits=true&count_private=true)<br/>
 
-<h1 align="center">🔥 GitHub Streak & Stats 🔥</h1>
+<h1 align="center">🔥 Kazuha's GitHub Stats 🔥</h1>
 
 <p align="center">
   <a href="https://github.com/Kazuha787">
-    <img src="https://streak-stats.demolab.com?user=Kazuha787&theme=merko&hide_border=false&border_radius=10&background=0d1117&stroke=ffcc00&ring=ffcc00&fire=ff5733&currStreakNum=ffcc00" alt="GitHub Streak" width="80%"/>
+    <img src="https://github-readme-streak-stats.vercel.app?user=Kazuha787&theme=github-dark&hide_border=true&border_radius=10&background=0d1117&stroke=ffcc00&ring=ffcc00&fire=ff4500&currStreakNum=ffcc00" alt="GitHub Streak" width="75%"/>
   </a>
 </p>
 
@@ -33,16 +33,8 @@
 
 <p align="center">
   <a href="https://github.com/Kazuha787">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kazuha787&theme=merko&layout=compact&hide_border=false&border_radius=10&background=0d1117&title_color=ffcc00&text_color=ffffff" alt="Top Languages" width="50%"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kazuha787&theme=github-dark&layout=compact&hide_border=true&border_radius=10&background=0d1117&title_color=ffcc00&text_color=ffffff" alt="Top Languages" width="55%"/>
   </a>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kazuha787&theme=radical&hide_border=true&layout=compact&background=000000&title_color=FF5733&text_color=FFD700&icon_color=FF4500" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kazuha787&theme=radical&hide_border=true&layout=compact&background=000000&title_color=FF5733&text_color=FFD700&icon_color=FF4500" alt="Top Languages" />
 </p>
 
 ![snake gif](https://github.com/Kazuha787/Kazuha787/blob/output/github-snake-dark.svg)
