@@ -19,11 +19,11 @@
 
 ![](https://github-readme-stats.vercel.app/api?username=Kazuha787&theme=merko&hide_border=false&include_all_commits=true&count_private=true)<br/>
 
-<h1 align="center">🔥 Kazuha's GitHub Stats 🔥</h1>
+<h1 align="center">🔥 GitHub Streak & Stats 🔥</h1>
 
 <p align="center">
   <a href="https://github.com/Kazuha787">
-    <img src="https://github-readme-streak-stats.vercel.app?user=Kazuha787&theme=github-dark&hide_border=true&border_radius=10&background=0d1117&stroke=ffcc00&ring=ffcc00&fire=ff4500&currStreakNum=ffcc00" alt="GitHub Streak" width="75%"/>
+    <img src="https://streak-stats.demolab.com?user=Kazuha787&theme=highcontrast&hide_border=true&border_radius=10&background=0D1117&stroke=FFD700&ring=FFA500&fire=FF4500&currStreakNum=FFD700" alt="GitHub Streak" width="80%"/>
   </a>
 </p>
 
@@ -33,7 +33,7 @@
 
 <p align="center">
   <a href="https://github.com/Kazuha787">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kazuha787&theme=github-dark&layout=compact&hide_border=true&border_radius=10&background=0d1117&title_color=ffcc00&text_color=ffffff" alt="Top Languages" width="55%"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kazuha787&theme=highcontrast&layout=compact&hide_border=true&border_radius=10&background=0D1117&title_color=FFA500&text_color=FFFFFF" alt="Top Languages" width="50%"/>
   </a>
 </p>
 
