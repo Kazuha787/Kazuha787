@@ -23,7 +23,7 @@
 
 <p align="center">
   <a href="https://github.com/Kazuha787">
-    <img src="https://streak-stats.demolab.com?user=Kazuha787&theme=highcontrast&hide_border=true&border_radius=10&background=0D1117&stroke=FFD700&ring=FFA500&fire=FF4500&currStreakNum=FFD700" alt="GitHub Streak" width="80%"/>
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=Kazuha787&theme=highcontrast&hide_border=true&border_radius=10&background=0D1117&stroke=FFD700&ring=FFA500&fire=FF4500&currStreakNum=FFD700" alt="GitHub Streak" width="80%"/>
   </a>
 </p>
 
