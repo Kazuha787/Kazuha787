@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Animated Graph - Kazuha's Coding Journey</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #chartContainer {
+            width: 80%;
+            height: 60%;
+        }
+
+        h1 {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2em;
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🚀 Kazuha's Live Coding Journey 🌌</h1>
+<div id="chartContainer">
+    <canvas id="liveChart"></canvas>
+</div>
+
+<script>
+    const ctx = document.getElementById('liveChart').getContext('2d');
+    const data = {
+        labels: [],  // X-axis labels will be time-based
+        datasets: [{
+            label: 'Activity Progress',
+            borderColor: '#ff3366',
+            backgroundColor: 'rgba(255, 51, 102, 0.2)',
+            data: [],
+            fill: true,
+            lineTension: 0.4,
+            pointRadius: 5,
+            pointBackgroundColor: '#ffcc00',
+            borderWidth: 2,
+        }]
+    };
+
+    const config = {
+        type: 'line',
+        data: data,
+        options: {
+            responsive: true,
+            animation: {
+                duration: 1000, // 1 second per update
+                easing: 'easeOutBounce',
+            },
+            scales: {
+                x: {
+                    type: 'linear',
+                    position: 'bottom',
+                    ticks: {
+                        maxRotation: 0,
+                    }
+                },
+                y: {
+                    beginAtZero: true,
+                }
+            },
+        }
+    };
+
+    const chart = new Chart(ctx, config);
+
+    // Simulate live data updates
+    let time = 0;
+    setInterval(() => {
+        time++;
+        // Add new data point
+        if (data.labels.length >= 20) {
+            data.labels.shift(); // Remove the oldest label (max 20 points on the graph)
+            data.datasets[0].data.shift(); // Remove the oldest data point
+        }
+
+        // Push new data
+        data.labels.push(time);
+        data.datasets[0].data.push(Math.random() * 100); // Simulate random activity data
+
+        chart.update(); // Update chart with new data
+    }, 2000);  // Update every 2 seconds
+</script>
+
+</body>
+</html>
