@@ -3,6 +3,10 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FF5733&center=true&vCenter=true&width=435&lines=Testnet+Dev+%7C+Reverse+Engineer+%7C+Automation+Wizard;Debugging+in+Multiple+Languages+%F0%9F%94%96;Automating+Things+That+Don't+Need+Automation+%E2%9C%A8;Making+Scripts+Run+Smoother+Than+Life+Decisions+%F0%9F%98%86" alt="Typing SVG" />
 </p>
 
+<div align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300"/>
+</div>
+
 ---
 # 💫 About Me:
 🚀 Building testnet front-end & back-end apps (because bugs love me)<br>🔍 Reverse engineering stuff—mostly to see how it breaks<br>⚡ Automating everything, including things that don’t need automation<br><br>🤝 Let’s collaborate on blockchain, automation & world domination<br>📚 Currently learning Python, JavaScript & Chinese (so I can debug in multiple languages)<br>💡 Ask me about testnets, scripting & how to look busy while coding<br><br>🎉 Fun fact: My scripts run smoother than my life decisions 😆
