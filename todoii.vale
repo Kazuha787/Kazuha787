@@ -1,0 +1,24 @@
+import stdlib;
+
+struct Person {
+  name: str;
+  age: int;
+}
+
+fn main() export {
+  // Create a new person using 'own'
+  person = Person(name = "Kazuha", age = 20);
+
+  // Borrow it for reading (immutable)
+  println("Name: " + borrow(person).name);
+  println("Age: " + borrow(person).age.str());
+
+  // Now let's mutate it
+  mut person2 = mut person;
+  set person2.age = 21;
+  set person2.name = "Kazuha the Legend";
+
+  println("After mutation:");
+  println("Name: " + borrow(person2).name);
+  println("Age: " + borrow(person2).age.str());
+}
